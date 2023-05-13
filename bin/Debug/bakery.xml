@@ -1,0 +1,211 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+bakery
+</name>
+</assembly>
+<members>
+<member name="T:bakery.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:bakery.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:bakery.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:bakery.DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:bakery.DataSet1.categoriesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bakery.DataSet1.customersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bakery.DataSet1.menu_itemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bakery.DataSet1.order_itemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bakery.DataSet1.orders_tableDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bakery.DataSet1.products_tableDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bakery.DataSet1.sales_unitDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bakery.DataSet1.categoriesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bakery.DataSet1.customersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bakery.DataSet1.menu_itemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bakery.DataSet1.order_itemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bakery.DataSet1.orders_tableRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bakery.DataSet1.products_tableRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bakery.DataSet1.sales_unitRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bakery.DataSet1.categoriesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bakery.DataSet1.customersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bakery.DataSet1.menu_itemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bakery.DataSet1.order_itemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bakery.DataSet1.orders_tableRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bakery.DataSet1.products_tableRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bakery.DataSet1.sales_unitRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bakery.DataSet1TableAdapters.categoriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bakery.DataSet1TableAdapters.customersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bakery.DataSet1TableAdapters.menu_itemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bakery.DataSet1TableAdapters.order_itemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bakery.DataSet1TableAdapters.orders_tableTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bakery.DataSet1TableAdapters.products_tableTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bakery.DataSet1TableAdapters.sales_unitTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bakery.DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:bakery.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(bakery.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:bakery.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(bakery.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:bakery.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(bakery.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:bakery.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:bakery.DataSet1TableAdapters.TableAdapterManager.UpdateAll(bakery.DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:bakery.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:bakery.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

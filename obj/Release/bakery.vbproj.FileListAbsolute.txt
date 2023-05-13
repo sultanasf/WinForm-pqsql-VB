@@ -1,0 +1,13 @@
+D:\Semester 2\Basis Data\Praktikum\VB\bakery\bin\Release\bakery.exe.config
+D:\Semester 2\Basis Data\Praktikum\VB\bakery\bin\Release\bakery.exe
+D:\Semester 2\Basis Data\Praktikum\VB\bakery\bin\Release\bakery.pdb
+D:\Semester 2\Basis Data\Praktikum\VB\bakery\bin\Release\bakery.xml
+D:\Semester 2\Basis Data\Praktikum\VB\bakery\obj\Release\bakery.vbproj.AssemblyReference.cache
+D:\Semester 2\Basis Data\Praktikum\VB\bakery\obj\Release\bakery.vbproj.SuggestedBindingRedirects.cache
+D:\Semester 2\Basis Data\Praktikum\VB\bakery\obj\Release\bakery.Form1.resources
+D:\Semester 2\Basis Data\Praktikum\VB\bakery\obj\Release\bakery.Resources.resources
+D:\Semester 2\Basis Data\Praktikum\VB\bakery\obj\Release\bakery.vbproj.GenerateResource.cache
+D:\Semester 2\Basis Data\Praktikum\VB\bakery\obj\Release\bakery.vbproj.CoreCompileInputs.cache
+D:\Semester 2\Basis Data\Praktikum\VB\bakery\obj\Release\bakery.exe
+D:\Semester 2\Basis Data\Praktikum\VB\bakery\obj\Release\bakery.xml
+D:\Semester 2\Basis Data\Praktikum\VB\bakery\obj\Release\bakery.pdb
